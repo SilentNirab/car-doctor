@@ -3,7 +3,8 @@ import Logo from "../../../assets/logo.svg"
 
 const Nabvar = () => {
     const NavLinks = <>
-        <li><Link>Home</Link></li>
+        <li><Link to={'/'}>Home</Link></li>
+        <li><Link to={'/login'}>Login</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 max-w-7xl mx-auto">
